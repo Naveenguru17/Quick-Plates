@@ -22,13 +22,12 @@ class UserClass extends React.Component{
     }
     render(){
         console.log("child render");
-        const {login,location,email}=this.state.userInfo;
+        const {login,email}=this.state.userInfo;
         return(
             <div className="user-class">
                 <h1>{login}</h1>
-                <h1>{location}</h1>
                 <h1>{email}</h1>
-                <h1>This is written using class</h1>
+    
                 
             </div>
         )

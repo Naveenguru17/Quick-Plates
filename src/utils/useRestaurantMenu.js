@@ -4,6 +4,7 @@ import { MENU_URL } from "./constants";
 const useRestaurantMenu=(resId)=>{
 
     const [resInfo,setresInfo]=useState(null);
+    console.log(resInfo)
 
     useEffect(()=>{
         fetchres();
